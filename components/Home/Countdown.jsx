@@ -9,7 +9,7 @@ const DateTimeDisplay = ({ value, type, isDanger }) => {
     );
   };
 
-export default function Countdown({ customDate }) {
+export default function Countdown({ customDate, title }) {
 
   const useCountdown = (targetDate) => {
     const countDownDate = new Date(targetDate).getTime();
@@ -51,7 +51,7 @@ export default function Countdown({ customDate }) {
         <div className="show-counter bg-gradient-to-r from-primary-red to-comp-orange">
           <p className="mt-0 md:mt-[2px] md:text-xl text-wordings-white text-sm font-Poppins font-medium text-center md:text-left">
             <span className="bg-clip-text">
-              🚀 Countdown to Public sale details 🚀
+              {title}
             </span>
           </p>
           <div
