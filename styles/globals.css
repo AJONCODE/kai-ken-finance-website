@@ -6,6 +6,62 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Countdown */
+.countdown {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-counter {
+  padding: 0.9rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #fff;
+  width: auto;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown>p {
+  margin: 0;
+}
+
+.show-counter .countdown>span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+/* Countdown */
+
 @font-face {
   font-family: "game";
   src: url("/fonts/game.ttf") format("truetype");
@@ -63,7 +119,7 @@ p {
   .logo-kaiken-mobile {
     display: block;
     position: absolute;
-    top: 0px;
+    top: -75px;
   }
 }
 

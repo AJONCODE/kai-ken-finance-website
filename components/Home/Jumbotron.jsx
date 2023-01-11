@@ -9,6 +9,8 @@ import LaunchPitchDeck from "../util/LaunchPitchDeckButton";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
+import Countdown from "./Countdown";
+
 export default function Jumbotron() {
   useEffect(() => {
     AOS.init({
@@ -20,7 +22,14 @@ export default function Jumbotron() {
   }, []);
   return (
     <div className="relative z-[0] w-full pl-0 md:pl-6">
-      <div className="relative pt-24 mx-auto container flex w-full flex-row  items-start justify-center z-[2] ">
+      <br />
+      <br />
+      <br />
+      <br />
+      <Countdown customDate={new Date("January 13, 2023 17:30:00")} />
+      {/* <Countdown customDate={new Date("January 11, 2023 17:30:00")} /> */}
+      <div className="relative pt-15 mx-auto container flex w-full flex-row  items-start justify-center z-[2] ">
+
         <div className="flex flex-2 flex-col pt-36">
           <h1 className="font-Poppins bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange md:text-5xl font-extrabold text-xl  w-full text-center md:text-left">
             Welcome to future of
