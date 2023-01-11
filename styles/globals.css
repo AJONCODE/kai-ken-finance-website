@@ -61,7 +61,7 @@ p {
   }
 
   .logo-kaiken-mobile {
-    display: none;
+    display: block;
     position: absolute;
     top: 0px;
   }

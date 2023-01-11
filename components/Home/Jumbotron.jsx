@@ -80,7 +80,7 @@ export default function Jumbotron() {
         <div className="md:block logo-kaiken">
           <Image src={Logo} height={950} width={820} alt="" />
         </div>
-        <div className="sm:block logo-kaiken-mobile hidden">
+        <div className="sm:block logo-kaiken-mobile">
           <Image src={Logo} height={300} width={170} alt="" />
         </div>
       </div>
