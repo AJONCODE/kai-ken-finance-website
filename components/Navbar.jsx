@@ -163,7 +163,6 @@ export default function Navbar(props) {
         <div className="hidden md:block w-full lg:w-auto flex justify-start lg:justify-evenly  ml-0 lg:ml-auto lg:my-6 lg:pl-12  my-3 ">
           <Link href="https://app.kaikenfinance.com" passHref>
             <a target="_blank">
-              {/* <div className="flex w-[172px] h-[36px] bg-[#c04dc9] rounded-md"> */}
               <div className="flex w-[172px] h-[36px] bg-[rgba(186,111,74,0.70)] rounded-md">
 
                 <h1 className="font-bold font-Poppins text-sm  text-justify mx-auto my-auto align-middle">Launch Application</h1>

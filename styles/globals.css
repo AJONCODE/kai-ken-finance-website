@@ -37,6 +37,36 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.logo-kaiken {
+  display: none;
+}
+
+.logo-kaiken-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo-kaiken {
+    display: block;
+  }
+
+  .logo-kaiken-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-kaiken {
+    display: none !important;
+  }
+
+  .logo-kaiken-mobile {
+    display: none;
+    position: absolute;
+    top: 0px;
+  }
+}
+
 @media (min-width: 1024px) {
   .comp {
     max-width: 1024px;
@@ -1188,11 +1218,11 @@ lable {
   0%{
     transform: scale(1);
   }
-  
+
   50%{
     transform: scale(1.5);
   }
-  
+
   100%{
     transform: scale(1);
   }
