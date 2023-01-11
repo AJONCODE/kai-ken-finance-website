@@ -26,19 +26,18 @@ export default function Jumbotron() {
             Welcome to future of
           </h1>
           <h1 className="h-[15.5vh] font-Poppins bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange md:text-5xl font-extrabold text-xl md:w-2/3 w-full text-center md:text-left">
-            fund raising powered by - Aptos
+            fund raising powered by - {" "}
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              KaiKen
+            </span>{" "}
           </h1>
           <p className=" md:text-xl text-wordings-white text-sm font-Poppins font-medium text-center md:text-left">
-            Full scale eco-system to launch your token sales.
+            What is Kaiken : Meme with utility: Strongest Dog out there.
           </p>
           <p className="mt-0 md:mt-[2px] md:text-xl text-wordings-white text-sm font-Poppins font-medium text-center md:text-left">
-            First movers to adopt for upcoming highly scalable and secure
-            blockchain{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
-              Aptos
-            </span>{" "}
-            to facilitate launches and DAOs.
+            Full scale eco-system to launch your token sales.
           </p>
+          <br />
           <p className="mt-0 md:mt-[2px] md:text-xl text-wordings-white text-sm font-Poppins font-medium text-center md:text-left">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
               Kai Ken

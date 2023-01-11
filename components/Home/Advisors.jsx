@@ -20,7 +20,9 @@ export default function Advisors() {
       <div className="mx-auto container z-[2] relative w-full flex flex-col ">
         <div data-aos="fade-right">
           <h1 className="w-full justify-center font-extrabold font-Poppins text-4xl text-center text-[dusty-white] ">
-            Advisors
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Advisors
+            </span>
           </h1>
         </div>
         <div

@@ -41,7 +41,9 @@ export default function DecentralizedVC() {
       <div className="mx-auto container z-[2] relative ">
         <div data-aos="fade-right relative " className="flex flex-col">
           <h1 className="font-extrabold font-Poppins text-4xl text-center text-[dusty-white]">
-            Degen VC
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Degen VC
+            </span>
           </h1>
           <p className="flex md:flex-row flex-col align-middle items-center text-center justify-center md:mx-72 mx-10 mt-9">DegenVC is investment arm from us which will invest in early stage projects on Aptos ecosystem and all token holders get various opportunities to generate income through profit sharing.</p>
         </div>
@@ -49,7 +51,7 @@ export default function DecentralizedVC() {
           data-aos="fade-up"
           className="flex flex-col md:flex-row p-6 justify-between md:px-10 mt-2 md:mt-8 "
         >
-          {/* <div className="md:flex flex-row place-content-center content-center justify-center w-full hidden"> 
+          {/* <div className="md:flex flex-row place-content-center content-center justify-center w-full hidden">
             <div className="flex flex-col justify-center">
               <div className="relative left-[-0.5px] top-0 bg-glow-circle w-4 h-4 rounded-full drop-shadow-md "></div>
               <div className="relative left-[6px] bg-glow-circle w-[3px] h-[80em]"></div>

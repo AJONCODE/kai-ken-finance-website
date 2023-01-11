@@ -62,7 +62,9 @@ export default function TokenUtility() {
       <div className="mt-24 p-8 relative z-[0]">
         <div data-aos="fade-right ">
           <h1 className="font-game text-5xl pt-20 pb-10 text-center">
-            Token Metrics
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Token Metrics
+            </span>
           </h1>
         </div>
         <div
@@ -86,7 +88,9 @@ export default function TokenUtility() {
       <div className="mt-8 relative z-[0]">
         <div data-aos="fade-right">
           <h1 className="font-[game] text-5xl pt-20 pb-10 text-center">
-            Tokenomics
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Tokenomics
+            </span>
           </h1>
         </div>
         <div className="flex w-full relative align-middle justify-center mb-6">

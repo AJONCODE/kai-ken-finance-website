@@ -141,7 +141,9 @@ function BuyMeta({ address, signer }) {
       <div id="tokenomics" className=" relative z-[0] font-Poppins pt-24">
         <div data-aos="fade-up" className="relative container mx-auto z-[2] md:pt-0 pt-[100px]">
           <h1 className="text-center font-extrabold font-Poppins text-4xl pl-0 md:pl-3">
-            Tokenomics
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Tokenomics
+            </span>
           </h1>
 
           <div className="relative text-center mt-3 flex align-middle justify-center">
@@ -241,7 +243,9 @@ function BuyMeta({ address, signer }) {
         </div>
         <div className="relative container mx-auto z-[2] py-[100px]">
           <h1 className="text-center font-extrabold font-Poppins text-4xl ">
-            Token Metrics
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Token Metrics
+            </span>
           </h1>
           <div className="flex md:flex-row flex-col align-middle items-center justify-center mt-9">
             <div className="md:w-[500px] w-[100vw] h-[500px] ">

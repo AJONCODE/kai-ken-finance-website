@@ -18,13 +18,17 @@ export default function GameIncubator() {
   }, []);
   return (
     <div id="taxfund" className="relative z-[0] md:h-[80%] h-[100%] mt-0 pt-0 md:pt-12 md:mt-0 md:mb-20">
-      
+
       <div className="mx-auto container z-[2] relative  ">
         <div data-aos="fade-right" className="flex align-middle justify-center flex-col">
-          <h1 className="font-extrabold font-Poppins text-4xl text-center text-[dusty-white]">Tax Model</h1>
+          <h1 className="font-extrabold font-Poppins text-4xl text-center text-[dusty-white]">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              Tax Model
+            </span>
+          </h1>
           {/* <h2 className="flex font-bold text-2xl md:flex-row flex-col align-middle items-center justify-center mt-9">AptosPad Model</h2> */}
           <p className="flex md:flex-row flex-col align-middle items-center text-center justify-center md:mx-72 mx-10 mt-9">
-          Innovative tax model for token and ecosystem growth.</p> 
+          Innovative tax model for token and ecosystem growth.</p>
 
           <p className="flex md:flex-row flex-col align-middle items-center text-center justify-center md:mx-72 mx-10">7/7 Tax: Each Buy or Sell will have a 7% tax. Tax % will be modified or removed later as per market demands. Tax collected will be used for Marketing, BuyBack and Burn tokens and fund Degen VC.</p>
         </div>

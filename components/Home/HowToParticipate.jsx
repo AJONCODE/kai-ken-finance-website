@@ -22,10 +22,16 @@ export default function HowToParticipate() {
       <div className="mx-auto container z-[2] relative">
         <div data-aos="fade-right relative ">
           <h1 className="font-extrabold font-Poppins text-4xl text-center text-[dusty-white]">
-            How to Participate
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+              How to Participate in our Public sale ?
+            </span>
           </h1>
+
+          <p  className="flex md:flex-row flex-col align-middle items-center text-center justify-center md:mx-72 mx-10 mt-9">
+            Check our socials for more details.
+          </p>
         </div>
-        <div
+        {/* <div
           data-aos="fade-up"
           className="scroll-section p-2 mt-0 md:mt-10 flex justify-between"
         >
@@ -47,7 +53,6 @@ export default function HowToParticipate() {
             <p className="parti-desc">
               Connect your wallet to interact with our platform.
             </p>
-            {/* <button className="outline-btn">Connect Wallet</button> */}
           </div>
           <div className="participate-card">
           <div className="parti-num">
@@ -67,7 +72,6 @@ export default function HowToParticipate() {
             <p className="parti-desc">
               Buy $$$$ tokens from Uniswap to get started.
             </p>
-            {/* <button className="outline-btn">Buy Now</button> */}
           </div>
           <div className="participate-card">
           <div className="parti-num">
@@ -87,7 +91,6 @@ export default function HowToParticipate() {
             <p className="parti-desc">
               Stake the $$$$ tokens on the platform to earn access to sales.
             </p>
-            {/* <button className="outline-btn">Stake Now</button> */}
           </div>
           <div className="participate-card">
           <div className="parti-num">
@@ -107,9 +110,8 @@ export default function HowToParticipate() {
             <p className="parti-desc">
               Guaranteed allocation for all $$$$ stakers.
             </p>
-            {/* <button className="outline-btn ">Launchpad</button> */}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

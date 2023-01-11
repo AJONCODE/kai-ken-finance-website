@@ -3,7 +3,7 @@ import Tokenomics from "../components/Tokenomics";
 function BuyMeta({ address, signer }) {
   return (
     <>
-      <Tokenomics /> 
+      <Tokenomics />
     </>
   );
 }

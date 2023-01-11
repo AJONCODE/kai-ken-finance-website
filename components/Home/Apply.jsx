@@ -4,7 +4,9 @@ export default function Apply() {
       <div className=" absolute top-0 pt-10 pb-10 h-auto w-full "></div>
       <div className=" flex flex-col justify-center items-center md:w-1/2 z-[2]">
         <h1 className="text-center font-extrabold font-Poppins text-4xl text-center text-[dusty-white] ">
-          Apply to Launch Your Projects
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-red to-comp-orange ">
+            Apply to Launch Your Projects
+          </span>
         </h1>
         <p className="text-center mt-4 md:mb-0 mb-4">
           We look for strong teams with a unique and innovative vision in the
