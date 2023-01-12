@@ -29,8 +29,8 @@ export default function Roadmap() {
             className={`"border-x-8 h-[400px] w-2 rounded-md bg-gradient-to-br from-primary-red to-comp-orange "`}
           ></div> */}
           <div className="font-Poppins w-[100%] flex flex-col md:flex-row gap-x-4 justify-center">
-            <div className="relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
-              {/* <div className="absolute -left-[51px]  bg-white w-4 h-[18px] border border-[#848484] rounded-full drop-shadow-md "></div> */}
+            {/* <div className="relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
+               <div className="absolute -left-[51px]  bg-white w-4 h-[18px] border border-[#848484] rounded-full drop-shadow-md "></div> 
               <p className="text-left text-2xl w-44 font-bold text-white">
                 Q3 2022
               </p>
@@ -40,7 +40,7 @@ export default function Roadmap() {
                 <li className="my-2">Growth of community</li>
                 <li className="my-2">Degen VC launch</li>
               </div>
-            </div>
+            </div> */}
             <div className="relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
               {/* <div className="absolute -left-[51px]  bg-white w-4 h-[18px] border border-[#848484] rounded-full drop-shadow-md "></div> */}
               <p className="text-left text-2xl w-44 font-bold text-white">
