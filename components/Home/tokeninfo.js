@@ -95,17 +95,17 @@ const data = [
   {
     icon: to1,
     title: "Private",
-    desc: "59,000,000,000",
+    desc: "55,000,000,000",
   },
   {
     icon: to2,
     title: "Public",
-    desc: "5,000,000,000",
+    desc: "3,000,000,000",
   },
   {
     icon: to3,
     title: "Ecosystem",
-    desc: "3,000,000,000",
+    desc: "7,000,000,000",
   },
   {
     icon: to4,

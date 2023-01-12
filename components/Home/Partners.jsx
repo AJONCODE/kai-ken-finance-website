@@ -13,6 +13,16 @@ import cryptoNation from "../../assets/partners/crypto_nation.png";
 import ethosVerticalMarketing from "../../assets/partners/ethos_vertical_marketing.jpeg";
 import vemp from "../../assets/partners/vemp.png";
 import brotherhood from "../../assets/partners/brotherhood.png";
+
+import bitboy from "../../assets/partners/logos/bitboy.jpg";
+import BullsBears from "../../assets/partners/logos/bulls_bears_beast.png";
+import CryptoDaku from "../../assets/partners/logos/crypto_daku.png";
+import EvanLuthra from "../../assets/partners/logos/evan_luthra.jpeg";
+import intelInves from "../../assets/partners/logos/intelligent_investor.png";
+import moonmantra from "../../assets/partners/logos/moonmantra.png";
+import oneUpWitCrypto from "../../assets/partners/logos/one_up_wit_crypto.png";
+import x21 from "../../assets/partners/logos/x21.jpeg";
+
 import t2 from "../../assets/t2.png";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import AOS from "aos";
@@ -317,6 +327,184 @@ export default function Partners() {
                 width={120}
                 height={120}
                 alt="Brotherhood"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={bitboy}
+                width={120}
+                height={120}
+                alt="Bitboy"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={BullsBears}
+                width={120}
+                height={120}
+                alt="Bulls Bears and other Beasts"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div
+          data-aos="fade-up"
+          className="flex flex-row p-6 justify-center align-middle self-center md:px-10 px-2 mt-0  md:w-[80%] w-[100%] md:pl-20 pl-2"
+        >
+          <div className="font-Poppins flex flex-col md:flex-row gap-x-4 justify-center">
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={CryptoDaku}
+                width={120}
+                height={120}
+                alt="CryptoDaku"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={EvanLuthra}
+                width={120}
+                height={120}
+                alt="Evan Luthra"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={intelInves}
+                width={120}
+                height={120}
+                alt="Intelligent Investor"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={moonmantra}
+                width={120}
+                height={120}
+                alt="Moonmantra"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div
+          data-aos="fade-up"
+          className="flex flex-row p-6 justify-center align-middle self-center md:px-10 px-2 mt-0  md:w-[80%] w-[100%] md:pl-20 pl-2"
+        >
+          <div className="font-Poppins flex flex-col md:flex-row gap-x-4 justify-center">
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={oneUpWitCrypto}
+                width={120}
+                height={120}
+                alt="One Up With Crypto"
+                className="rounded-full"
+              />
+              {/* <p className="font-regular font-Poppins text-base mt-6">
+                Brotherhood
+              </p> */}
+              {/* <p className="text-lg font-semibold mt-3">
+                <a href="#" target="_blank">
+                  <OpenInNewIcon className="cursor-pointer" />
+                </a>
+              </p> */}
+            </div>
+
+            <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10 mr-4">
+              <Image
+                src={x21}
+                width={120}
+                height={120}
+                alt="x21"
                 className="rounded-full"
               />
               {/* <p className="font-regular font-Poppins text-base mt-6">
