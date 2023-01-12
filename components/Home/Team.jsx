@@ -1,6 +1,7 @@
 import Image from "next/image";
 import t1 from "../../assets/t1.png";
 import t2 from "../../assets/t2.png";
+import Logo from "../../assets/logo.svg";
 import daku from "../../assets/daku.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import AOS from "aos";
@@ -32,14 +33,14 @@ export default function Roadmap() {
         >
           <div className="font-Poppins flex flex-col md:flex-row gap-x-4 justify-center">
             <div className="flex align-middle justify-center flex-col  text-center relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
-              <Image src={t1} height={150} width={150} alt="" className="" />
+              <Image src={Logo} height={150} width={150} alt="" className="" />
               <p className="font-regular font-Poppins text-base mt-6">
                 Mr 0xAptos
               </p>
               <p className="text-lg font-semibold mt-3">Founder</p>
             </div>
             <div className="flex align-middle justify-center flex-col text-center relative px-8 py-10 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
-              <Image src={t2} height={150} width={150} alt="" className="" />
+              <Image src={Logo} height={150} width={150} alt="" className="" />
               <p className="font-regular font-Poppins text-base mt-6">
                 Ms Apetron
               </p>

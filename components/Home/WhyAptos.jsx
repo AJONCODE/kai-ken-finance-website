@@ -38,9 +38,9 @@ export default function Features() {
           className="scroll-section flex lg:flex-row p-9 flex-wrap justify-center items-center md:h-auto overflow-auto "
         >
           {/* <FeatureCard icons={f1} features="Guild Dao for Move to earn games" /> */}
-          <AptosCard icons={w1} features="Scalability" />
-          <AptosCard icons={w2} features="Safety"/>
-          <AptosCard icons={w3} features="High throughput & low latency" />
+          <AptosCard icons={w1} features="Rug proof – project will get listed" />
+          <AptosCard icons={w2} features="DegenVC- IF we all stick this can be biggest thing in bear market"/>
+          <AptosCard icons={w3} features="Support of Kaiken kols, market makers in Launch" />
         </div>
       </div>
     </div>

@@ -22,8 +22,8 @@ const Home = () => {
       <W3kTax />
       <DecentralizedVC />
       <Roadmap />
-      <Team/>
-      <Advisors/>
+      {/* <Team/> */}
+      {/* <Advisors/> */}
       <Partners />
       <Apply />
     </div>

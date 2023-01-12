@@ -46,8 +46,49 @@ export default function Roadmap() {
               <p className="text-left text-2xl w-44 font-bold text-white">
                 Q4 2022
               </p>
+
               <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
-              Kai Ken Finance Mainnet launch
+                Core Team setup
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Hiring of the Marketing and Development team
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Set up all social media
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Website V1 launch
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Integration with Pontem, Metamask
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Launch of AptosBased Launchpad for users to play and see
+              </li>
+            </div>
+
+
+
+            <div className="relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-3 md:my-10">
+              {/* <div className="absolute -left-[51px]  bg-white w-4 h-[18px] border border-[#848484] rounded-full drop-shadow-md "></div> */}
+              <p className="text-left text-2xl w-44 font-bold text-white">
+                Q1 2023
+              </p>
+
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Rebrand
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                TGE
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                First 5 Major IDO
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Growth of Community
+              </li>
+              <li className="text-left mt-2 my-2 text-md text-white text-wrap px-2 ">
+                Growth of Holders
               </li>
             </div>
             {/* <div className="relative px-8 py-3 bg-cards-bg backdrop-blur-lg border border-[#848484] rounded-2xl md:w-[80%] w-[100%]  my-10">
