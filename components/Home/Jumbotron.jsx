@@ -1,6 +1,7 @@
 import Image from "next/image";
 // import Logo from "../../assets/mtkz_Logo.svg";
 import Logo from "../../assets/logo.svg";
+import Logo1 from "../../assets/Logo1.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -85,9 +86,29 @@ export default function Jumbotron() {
             </a>
           </div>
         </div>
-        <div className="md:block logo-kaiken">
-          <Image src={Logo} height={950} width={820} alt="" />
+
+        <div className="md:block logo-kaiken" style={{
+          overflow: 'hidden',
+          position: 'relative',
+          width : '70%'
+        }} >
+          <Image src={Logo} alt="" style={{
+            opacity: '0.6',
+            position: 'absolute',
+            left: 0,
+            top: 0,
+            width: '80%',
+            height: 'auto',
+            marginTop: '4rem',
+          }} />
+          <div style={{ position: 'relative' }}>
+            <p className="mt-0 md:mt-[2px] md:text-xl text-wordings-white text-sm font-Poppins font-medium text-center" 
+            style={{ padding: '0.5rem' , textAlign : "justify" }}>
+              A safe haven for all Birds, dogs, dragons and everything where Degens Ape and Earn without fear of rug!!
+            </p>
+          </div>
         </div>
+
         <div className="sm:block logo-kaiken-mobile">
           <Image src={Logo} height={300} width={170} alt="" />
         </div>
