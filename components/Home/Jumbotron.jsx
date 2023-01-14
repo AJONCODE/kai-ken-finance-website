@@ -27,7 +27,7 @@ export default function Jumbotron() {
       <br />
       <br />
       <br />
-      <Countdown customDate={new Date("January 14, 2023 19:30:00")} title="🚀 Countdown to Public sale details 🚀" />
+      {/* <Countdown customDate={new Date("January 14, 2023 19:30:00")} title="🚀 Countdown to Public sale details 🚀" /> */}
       {/* <Countdown customDate={new Date("January 11, 2023 17:30:00")} /> */}
       <div className="relative pt-15 mx-auto container flex w-full flex-row  items-start justify-center z-[2] ">
 
