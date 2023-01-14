@@ -13,7 +13,7 @@ export default function Apply() {
           crypto space. If you think you are one of these projects, apply below!{" "}
         </p>
         <button className="bg-btn mt-5 md:mt-10 ">
-          <a href="https://app.kaikenfinance.com/ido-apply" target="_blank">Apply Now</a>
+          <a href="https://app.thekaiken.com/ido-apply" target="_blank">Apply Now</a>
         </button>
       </div>
     </div>

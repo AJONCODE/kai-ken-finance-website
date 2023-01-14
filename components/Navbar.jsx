@@ -161,7 +161,7 @@ export default function Navbar(props) {
           </ul>
         </div>
         <div className="hidden md:block w-full lg:w-auto flex justify-start lg:justify-evenly  ml-0 lg:ml-auto lg:my-6 lg:pl-12  my-3 ">
-          <Link href="https://app.kaikenfinance.com" passHref>
+          <Link href="https://app.thekaiken.com/" passHref>
             <a target="_blank">
               <div className="flex w-[172px] h-[36px] bg-[rgba(186,111,74,0.70)] rounded-md">
 
